@@ -36,7 +36,7 @@ Send single-character commands to the Arduino via a Bluetooth app or serial moni
 | R       | Right       |
 | S       | Stop        |
 
-> Use any Bluetooth terminal app (like [Bluetooth Terminal HC-05](https://play.google.com/store/apps/details?id=project.bluetoothterminal)) to send these commands.
+> Use any Bluetooth terminal app (like [Bluetooth Terminal HC-05](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal)) to send these commands.
 
 ---
 
