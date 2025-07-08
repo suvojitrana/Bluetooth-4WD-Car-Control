@@ -1,3 +1,5 @@
+![Project Banner](https://github.com/suvojitrana/Bluetooth-4WD-Car-Control/blob/main/project_banner.jpg?raw=true)
+
 # 🚗 Bluetooth-4WD-Car-Control
 
 An Arduino-based 4WD robot car that can be controlled via Bluetooth using the **HC-05** module. Ideal for beginners and hobbyists learning robotics and wireless control.
@@ -39,7 +41,7 @@ Send single-character commands to the Arduino via a Bluetooth app or serial moni
 ---
 
 ## 🔌 Circuit Diagram:
-_Wiring details and a schematic can be added here as an image in future updates._
+[Circuit Diagram](https://github.com/suvojitrana/Bluetooth-4WD-Car-Control/blob/main/circuit_diagram.jpg?raw=true)
 
 ---
 
