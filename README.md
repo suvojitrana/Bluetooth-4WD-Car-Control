@@ -45,14 +45,34 @@ Send single-character commands to the Arduino via a Bluetooth app or serial moni
 
 ---
 
-## 📁 File Info:
-- `bluetooth_4wd_car_control.ino` → Main Arduino sketch  
-- `.gitignore` → To ignore temporary files  
-- `LICENSE` → MIT License  
+## ⬆️ How to Upload the Code
+
+1. Connect your Arduino Uno to PC via USB.
+2. Open `bluetooth_4wd_car_control.ino` in Arduino IDE.
+3. Select the correct board and port.
+4. Upload the code.
+5. Connect HC-05 to Arduino (RX to TX, TX to RX).
+6. Power the motor driver with an external battery.
 
 ---
 
-## 🧠 Future Scope:
+## 🧠 Code Explanation
+
+The main code file is `bluetooth_4wd_car_control.ino`.  
+It follows these key steps:
+
+- Initializes Bluetooth and motor pins
+- Reads serial data from the HC-05 module
+- Based on the received character, turns ON/OFF specific motors:
+  - `F`: All motors forward
+  - `B`: All motors backward
+  - `L`: Left motors stop, right motors forward (for turning)
+  - `R`: Right motors stop, left motors forward
+  - `S`: All motors stop
+
+---
+
+## ✌️ Future Scope:
 - Obstacle avoidance with ultrasonic sensor
 - Line following mode
 - Mobile app with GUI
@@ -64,4 +84,4 @@ This project is licensed under the **MIT License** – feel free to use, modify,
 
 ---
 
-**Made with ❤️ by Suvojit Rana**
+**Made with 😎 by Suvojit Rana**
